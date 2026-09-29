@@ -1,4 +1,4 @@
-# mvcsheet
+# megaversetools/charactersheet
 Megaverse Character Sheet
 
 This is the original Rifts&reg; Character Sheet I created in Publisher and since lost the file that generated it. I will be moving this to a new repository that will separate the JavaScript code and the underlying document that is being converted in Scribus. I've found a few bugs, including a couple of bonus calculations that didn't get updated with the Rifts&reg; Ultimate Edition attribute bonuses and are instead still using the original Rifts&reg; rules. Once it is recreated as it is today, I will post a new version just with those bug fixes.
