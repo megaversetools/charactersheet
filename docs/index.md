@@ -1,6 +1,6 @@
 ## Download Latest Character Sheet
 
-**Rifts&reg; Character Sheet** [[1.1 (latest)](https://github.com/traek/mvcsheet/releases/download/1.1/Rifts-Character-Sheet.pdf)]
+**Rifts&reg; Character Sheet** [[1.1 (latest)](https://github.com/megaversetools/charactersheet/releases/download/1.1/Rifts-Character-Sheet.pdf)]
 
 ## Megaverse Online Project Background
 
@@ -22,4 +22,4 @@ Once published, of course people will be free to fork the project for themselves
 
 ### Contact Information
 
-Twitter: [@traekm](https://twitter.com/traekm), Mastadon: [@traek](https://mastodon.social/@traek), Messenger: [@traekmalan](https://m.me/traekmalan)
+Matrix: [@traek:matrix.org](https://matrix.to/#/@traek:matrix.org), Mastadon: [@traek](https://mastodon.social/@traek), Messenger: [@traekmalan](https://m.me/traekmalan)
