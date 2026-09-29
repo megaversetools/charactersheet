@@ -1,3 +1,7 @@
+## Download Latest Character Sheet
+
+**Rifts&reg; Character Sheet** [[1.1 (latest)](https://github.com/traek/mvcsheet/releases/download/1.1/Rifts-Character-Sheet.pdf)]
+
 ## Megaverse Online Project Background
 
 Several years ago I developed a fillable PDF character sheet for my favorite RPG in high school: Rifts&reg;. When I put the character sheet together in [Microsoft Publisher](https://www.microsoft.com/en-us/microsoft-365/publisher), my goal was to create a single sheet that you could have all of your adventuring gear, skills, background, etc. and flip over for when it came time for combat using your abilities, attacks, weapons, etc.
