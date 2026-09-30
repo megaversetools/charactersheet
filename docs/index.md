@@ -1,25 +1,25 @@
 ## Download Latest Character Sheet
 
-**Rifts&reg; Character Sheet** [[1.1 (latest)](https://github.com/megaversetools/charactersheet/releases/download/1.1/Rifts-Character-Sheet.pdf)]
+**Rifts&reg; Character Sheet** [[v1.1 (legacy release)](https://github.com/megaversetools/charactersheet/releases/tag/1.1)]
 
 ## Megaverse Online Project Background
 
-Several years ago I developed a fillable PDF character sheet for my favorite RPG in high school: Rifts&reg;. When I put the character sheet together in [Microsoft Publisher](https://www.microsoft.com/en-us/microsoft-365/publisher), my goal was to create a single sheet that you could have all of your adventuring gear, skills, background, etc. and flip over for when it came time for combat using your abilities, attacks, weapons, etc.
+Several years ago I developed a fillable PDF character sheet for my favorite RPG: Rifts&reg;. When I put the character sheet together in [Microsoft Publisher](https://www.microsoft.com/en-us/microsoft-365/publisher), my goal was to create a comprehensive, multi-page sheet that let you track all your gear, skills, and background on one side, and flip over for combat stats, attacks, and abilities on the other.
 
-I created a print-only version and then later added some javascript to a fillable PDF to do some basic bonus calculations. After using it for a campaign with a local Meetup, I added two supplementary sheets and fixed some calculations and adjusted some others to handle the new UE rules. By then, I'd lost the original .pub file and was stuck with the layout I had.
+I created a print-only version and later added JavaScript to a fillable PDF to handle basic bonus calculations. After using it for campaigns over the years, I added supplementary sheets and adjusted math to handle newer rules updates. By then, however, the original `.pub` file had been lost to time, leaving me stuck with the compiled output.
 
-My lofty goals to go back and recreate it fizzled out along with my ever-busier life as my kids got older until they eventually started playing Rifts&reg; as well. So, I started putting a new version together, this time using [Scribus](https://www.scribus.net/) but with a whole new design. While this is still a work in progress, the popularity of Rifts&reg; seems to have waned (even moreso than it was in my day) and eventually I discovered games more people were willing to play far more often. I'm still interested in completing this but unless there is more interest, it's probably just going to stay exactly as it is.
+My lofty goals to go back and recreate it sat on the shelf as my kids grew up—until they eventually started playing Rifts&reg; as well. Seeing the next generation pick up the game reignited the project, leading to a complete architectural overhaul under the **Megaverse Online Project** banner.
 
-## Where We Go From Here
+## The Road to v1.2: A Modern Rebuild
 
-For now, my plan is to recreate the character sheet as it was but this time, in an editable format that will [hopefully] persist for a good, long time. While Scribus is great at desktop publishing, I'm not sure it's so great at creating PDF-fillable forms. If anyone has a better idea for a format, I'm open to suggestions.
+This repository is currently undergoing a ground-up rebuild to bring the classic 4-page character sheet into a clean, maintainable open-source workflow:
 
-Once published, of course people will be free to fork the project for themselves, including any artwork. Since this project includes copyrighted material, all notices and marks will have to remain. Among many other things, here's what I see needs to be done:
+1. **Decoupled Architecture:** Visual layout and document generation are handled in [Scribus](https://www.scribus.net/), while all character math and rules logic are modularized into a dedicated `megaversetools/core` JavaScript submodule.
+2. **Rules Modernization:** Fixing long-standing legacy bugs, specifically updating attribute bonus calculations from the original 1990s *Rifts&reg;* ruleset to strict compliance with *Rifts&reg; Ultimate Edition*.
+3. **Open Access & Accessibility:** Migrating to open-source fonts and dual-licensing the project (MIT for code, CC BY-NC-SA 4.0 for layout) to ensure the sheet remains free, community-driven, and fully compliant with Palladium Books' fan-use policies.
 
-1. Convert print layout to Scribus or other open format
-2. Extract javascript functions and publish on Github
-3. Update license to reflect copyrighted material and comply with Palladium Books policy and United States copyright law
+Once the structural Scribus layout is complete, a Python build pipeline will automate assembling the final interactive PDF. 
 
 ### Contact Information
 
-Matrix: [@traek:matrix.org](https://matrix.to/#/@traek:matrix.org), Mastadon: [@traek](https://mastodon.social/@traek), Messenger: [@traekmalan](https://m.me/traekmalan)
+Matrix: [@traek:matrix.org](https://matrix.to/#/@traek:matrix.org), Mastodon: [@traek](https://mastodon.social/@traek), Messenger: [@traekmalan](https://m.me/traekmalan)
