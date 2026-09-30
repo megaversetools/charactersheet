@@ -1,6 +1,6 @@
 ## Download Latest Character Sheet
 
-**Rifts&reg; Character Sheet** [[v1.1 (legacy release)](https://github.com/megaversetools/charactersheet/releases/tag/1.1)]
+**Rifts&reg; Fillable Character Sheet** [[Download PDF](https://github.com/megaversetools/charactersheet/releases/latest/download/Rifts-Character-Sheet.pdf)] | [[View Release Notes & Known Issues](https://github.com/megaversetools/charactersheet/releases/latest)]
 
 ## Megaverse Online Project Background
 
