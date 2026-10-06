@@ -1,22 +1,25 @@
 # megaversetools/charactersheet
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Megaverse Character Sheet
+## Overview & Architecture
 
-Welcome to the Megaverse Character Sheet repository. This project represents a complete architectural overhaul and modern ground-up rebuild of a comprehensive, multi-page interactive character sheet originally crafted in Microsoft Publisher. 
+This repository contains the source assets, Scribus layouts, and build scripts for the open-source **Rifts&reg; Character Sheet** (v1.2). Following the loss of the original Microsoft Publisher source files across multiple cross-state relocations, this project establishes a clean, decoupled engineering workflow for the classic 4-page character sheet:
 
-### Current Status & History
-The current release (tagged as **[1.1](https://github.com/megaversetools/charactersheet/releases/tag/1.1)**—though a 1.0 existed years ago, an exhaustive campaign to remove it from the timeline appears to have been largely successful) is available directly in this repository with its known legacy bugs intact. While detailed issue tracking for these quirks will be logged in the future, the artifact remains hosted here as a baseline reference.
+* **Layout Generation (`.sla`):** Visual design assets are managed natively in [Scribus](https://www.scribus.net/) utilizing open-source fonts to ensure full project editability.
+* **Rules Engine (`megaversetools/core`):** Character math, interactive PDF form calculations, and rules logic are modularized into a dedicated Git submodule adhering strictly to *Rifts&reg; Ultimate Edition* (RUE) standards.
+* **Build Pipeline:** A Python-based automation script compiles the Scribus output and injects the core JavaScript logic to generate the final interactive PDF.
 
-### The Road to 1.2
-With the original source files long lost, this repository establishes a clean, maintainable engineering workflow for the upcoming **1.2** release. Even though this represents a complete architectural rewrite under the hood, the goal is targeted modernization and bug correction rather than a redesign:
+## Repository Structure
 
-* **Decoupled Architecture:** Visual layout and document generation are handled in Scribus, while all character math and rules logic are modularized into the `megaversetools/core` submodule.
-* **Rules Modernization:** The core driver of this overhaul is fixing long-standing legacy bugs—specifically updating attribute bonus calculations from the original 1990s *Rifts&reg;* ruleset to strict compliance with *Rifts&reg; Ultimate Edition*.
-* **Layout Preservation:** The visual design of the sheet will remain fundamentally unchanged. The only expected modifications are a subtle footer update to include the version number and a GitHub repository reference (space permitting), alongside a move to open-source fonts to ensure the Scribus project files remain fully accessible and editable for anyone.
-
-Once the structural Scribus layout is fully rebuilt, the 1.2 release will drop in with clean, version-controlled code and proper math without disrupting the classic look of the sheet.
+```text
+├── core/                # Submodule pointing to megaversetools/core (JavaScript rules & math)
+├── docs/                # GitHub Pages site source (project background and web documentation)
+├── fonts/               # Open-source typography assets
+├── scribus/             # Scribus project layout files (.sla) and vector graphics (SVG)
+└── scripts/             # Python build and PDF assembly pipeline
+```
 
 ---
 
