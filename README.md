@@ -5,7 +5,7 @@
 
 ## Overview & Architecture
 
-This repository contains the source assets, Scribus layouts, and build scripts for the open-source **Rifts&reg; Character Sheet** (v1.2). Following the loss of the original Microsoft Publisher source files across multiple cross-state relocations, this project establishes a clean, decoupled engineering workflow for the classic 4-page character sheet:
+This repository contains the source assets, Scribus layouts, and build scripts for the open-source **Rifts&reg; Character Sheet** (v2.0). Following the loss of the original Microsoft Publisher source files across multiple cross-state relocations, this project establishes a clean, decoupled engineering workflow for the classic 2-page, double-sided character sheet:
 
 * **Layout Generation (`.sla`):** Visual design assets are managed natively in [Scribus](https://www.scribus.net/) utilizing open-source fonts to ensure full project editability.
 * **Rules Engine (`megaversetools/core`):** Character math, interactive PDF form calculations, and rules logic are modularized into a dedicated Git submodule adhering strictly to *Rifts&reg; Ultimate Edition* (RUE) standards.
