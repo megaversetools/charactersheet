@@ -1,0 +1,6 @@
+# Scribus Autosave and Backup Files
+*_autosave_*.sla
+*.sla~
+
+# Local Build Artifacts
+*.pdf
