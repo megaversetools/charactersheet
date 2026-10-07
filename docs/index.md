@@ -1,3 +1,5 @@
+![Project Logo](assets/logo.png)
+
 ## Download Latest Character Sheet
 
 **Rifts&reg; Character Sheet** &mdash; [[Download PDF](https://github.com/megaversetools/charactersheet/releases/latest/download/Rifts-Character-Sheet.pdf)] [[View Release Notes & Known Issues](https://github.com/megaversetools/charactersheet/releases/latest)]

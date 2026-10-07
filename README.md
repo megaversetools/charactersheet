@@ -23,6 +23,8 @@ This repository contains the source assets, Scribus layouts, and build scripts f
 
 ---
 
+[![Active Development](https://img.shields.io/badge/branch-v2--rebuild-blue?style=flat-square&logo=git)](https://github.com/megaversetools/charactersheet/tree/v2-rebuild)
+
 ## Why CC BY-NC-SA 4.0?
 
 This repository uses a Non-Commercial ShareAlike license to ensure the project remains a free, community-driven resource while protecting against unauthorized commercial exploitation or paywalls. This commercial restriction respects the intellectual property boundaries of Palladium Books, keeping fan-made design assets strictly non-commercial. To use a truly "open" license that allows commercial application would violate the long-standing guidelines laid out by Palladium Books, Inc. to create fan-made utilities, such as this.
