@@ -25,5 +25,6 @@ Once the Scribus layout and form fields are completed, a Python build pipeline w
 ### Contact Information
 
 * Matrix: [@traek:matrix.org](https://matrix.to/#/@traek:matrix.org)
-* Mastodon: [@traek](https://mastodon.social/@traek)
-* Messenger: [@traekmalan](https://m.me/traekmalan)
+* Mastodon: [@traek@mastodon.social](https://mastodon.social/@traek)
+* Messenger: [m.me/traekmalan](https://m.me/traekmalan)
+* Link Page: [traek.link (Gravatar)](https://traek.link)
